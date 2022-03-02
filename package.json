@@ -1,0 +1,27 @@
+{
+    "name": "youtube-clone-project",
+    "version": "1.0.0",
+    "description": "This is practice project to clone YouTube",
+    "scripts": {
+        "dev": "nodemon --exec babel-node src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shinn92kr/YouTubeClone.git"
+    },
+    "author": "Seunghwan Shin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/shinn92kr/YouTubeClone/issues"
+    },
+    "homepage": "https://github.com/shinn92kr/YouTubeClone#readme",
+    "dependencies": {
+        "express": "^4.17.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.17.5",
+        "@babel/node": "^7.16.8",
+        "@babel/preset-env": "^7.16.11",
+        "nodemon": "^2.0.15"
+    }
+}
